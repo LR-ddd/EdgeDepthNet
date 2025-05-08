@@ -1,4 +1,4 @@
-## Mask2Depth: Depth-Guided Boundary Learning for Agricultural Image Segmentation
+## EdgeDepthNet: Depth-Guided Boundary Learning for Agricultural Image Segmentation
 This model leverages depth weight information from the zero-shot depth estimation model ​​Depth Pro**[Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://arxiv.org/abs/2410.02073)**. We extend our highest respect to its authors:
 Aleksei Bochkovskii, Amaël Delaunoy, Hugo Germain, Marcel Santos, Yichao Zhou, Stephan R. Richter, and Vladlen Koltun.
 
@@ -8,13 +8,13 @@ Bin Liao, Baoping Zhou, Xiaofei Li, Guoying Qiu.
 ![](datas/network.jpg)
 
 
-Mask2Depth demonstrates exceptional performance in three boundary-sensitive agricultural scenarios. Quantitative boundary analysis reveals 2-5× improvement in boundary F1-score within 5-pixel tolerance compared to conventional methods. Visual validations confirm superior robustness against leaf fragmentation and soil artifact interference. This research advances boundary-aware agricultural vision systems, establishing a new paradigm for precision agriculture applications requiring fine-grained localization.
+EdgeDepthNet demonstrates exceptional performance in three boundary-sensitive agricultural scenarios. Quantitative boundary analysis reveals 2-5× improvement in boundary F1-score within 5-pixel tolerance compared to conventional methods. Visual validations confirm superior robustness against leaf fragmentation and soil artifact interference. This research advances boundary-aware agricultural vision systems, establishing a new paradigm for precision agriculture applications requiring fine-grained localization.
 Our dataset is publicly available at ​​ScienceDB**[https://www.scidb.cn/detail?dataSetId=0dadce6de3c44354bcd73e09e7699410]**​​.
 
 ![](datas/vision.png).
 
 Installation
-We recommend using a conda virtual environment. Install Mask2Depth with:
+We recommend using a conda virtual environment. Install EdgeDepthNet with:
 ```bash
 conda create -n EdgeDepthNet -y python=3.10
 conda activate EdgeDepthNet
@@ -27,7 +27,7 @@ sh get_pretrained_models.sh
 ```
 
 ## Training
-Modify required configurations in src/mask2depth/cfg/config.yaml
+Modify required configurations in src/EdgeDepthNet/cfg/config.yaml
 ​​Generate class weights for COCO-format annotations​​:
 
 ```bash
