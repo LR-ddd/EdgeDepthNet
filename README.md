@@ -5,7 +5,7 @@ Aleksei Bochkovskii, Amaël Delaunoy, Hugo Germain, Marcel Santos, Yichao Zhou, 
 Our work is collaboratively developed by:
 Bin Liao, Baoping Zhou, Xiaofei Li, Guoying Qiu.
 
-![](datas/network.jpg)
+![](datas/network.png)
 
 
 EdgeDepthNet demonstrates exceptional performance in three boundary-sensitive agricultural scenarios. Quantitative boundary analysis reveals 2-5× improvement in boundary F1-score within 5-pixel tolerance compared to conventional methods. Visual validations confirm superior robustness against leaf fragmentation and soil artifact interference. This research advances boundary-aware agricultural vision systems, establishing a new paradigm for precision agriculture applications requiring fine-grained localization.
